@@ -37,6 +37,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open" js-open-menu>
+          <svg class="hamburger-svg" width="32" height="22">
+            <use href="./img/symbol-defs.svg#menu_btn"></use>
+          </svg>
+        </button>
         <ul class="contacts list">
           <li class="contacts-item">
             <a class="contacts-link link" href="mailto:info@devstudio.com"
@@ -50,10 +55,76 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu" js-menu-container>
+        <div class="conteiner mobile-menu-conteiner">
+          <button class="mobile-menu-close-btn" js-close-menu>
+            <svg class="mobile-close-btn-svg" width="8" height="8">
+              <use href="./img/symbol-defs.svg#icon-Vector"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-list list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <ul class="menu-contacts list">
+            <li class="menu-contacts-item">
+              <a class="menu-contacts-link-number link" href="tel:+110001111111"
+                >+11 (000) 111 11 11</a
+              >
+            </li>
+            <li class="menu-contacts-item">
+              <a
+                class="menu-contacts-link-email link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="menu-list-icons list">
+            <li class="menu-icons">
+              <a href="" class="menu-link-icons link">
+                <svg width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-icons">
+              <a href="" class="menu-link-icons link">
+                <svg width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-icons">
+              <a href="" class="menu-link-icons link">
+                <svg width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-icons">
+              <a href="" class="menu-link-icons link">
+                <svg width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <main>
-      <!--Section1-->
-      <section class="hero">
+     <main> 
+    <!-- Section1 -->
+    <section class="hero">
         <div class="conteiner hero-wrap">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button" data-modal-open>
@@ -61,8 +132,8 @@
           </button>
         </div>
       </section>
-      <!--Section2-->
-      <section class="characteristics">
+    <!--Section2-->
+    <section class="characteristics">
         <div class="conteiner">
           <h2 class="visually-hidden">Characteristics</h2>
           <ul class="characteristics-list list">
@@ -117,47 +188,51 @@
           </ul>
         </div>
       </section>
-      <!--Section3-->
-      <section class="tasks section">
+    <!--Section3-->
+    <!-- <section class="tasks section">
         <div class="conteiner">
           <h2 class="tasks-title title">What Are We Doing</h2>
           <ul class="tasks-list list">
             <li class="tasks-item">
               <img
+              srcset="./img/actions1_2x.jpg 2x"
                 class="tasks-photo"
-                src="./img/photo1.jpg"
+                src="./img/actions1.jpg"
                 alt="photo1"
                 width="360"
                 height="300" />
             </li>
             <li class="tasks-item">
               <img
+              srcset="./img/actions2_2x.jpg 2x"
                 class="tasks-photo"
-                src="./img/photo2.jpg"
+                src="./img/actions2.jpg"
                 alt="photo2"
                 width="360"
                 height="300" />
             </li>
             <li class="tasks-item">
               <img
+              srcset="./img/actions3_2x.jpg 2x"
                 class="tasks-photo"
-                src="./img/photo3.jpg"
+                src="./img/actions3.jpg"
                 alt="photo3"
                 width="360"
                 height="300" />
             </li>
           </ul>
         </div>
-      </section>
-      <!--Section4-->
-      <section class="members section">
+      </section> -->
+    <!--Section4-->
+    <!-- <section class="members section">
         <div class="conteiner">
           <h2 class="members-title title">Our Team</h2>
           <ul class="members-list list">
             <li class="members-item">
               <img
+                srcset="./img/member1_2x.jpg 2x"
                 class="members-photo"
-                src="./img/img1.jpg"
+                src="./img/member1.jpg"
                 width="264"
                 height="260"
                 alt="img1" />
@@ -199,8 +274,9 @@
             </li>
             <li class="members-item">
               <img
+              srcset="./img/member2_2x.jpg 2x"
                 class="members-photo"
-                src="./img/img2.jpg"
+                src="./img/member2.jpg"
                 width="264"
                 height="260"
                 alt="img2" />
@@ -241,8 +317,9 @@
             </li>
             <li class="members-item">
               <img
+              srcset="./img/member3_2x.jpg 2x"
                 class="members-photo"
-                src="./img/img3.jpg"
+                src="./img/member3.jpg"
                 width="264"
                 height="260"
                 alt="img3" />
@@ -283,8 +360,9 @@
             </li>
             <li class="members-item">
               <img
+              srcset="./img/member4_2x.jpg 2x"
                 class="members-photo"
-                src="./img/img4.jpg"
+                src="./img/member4.jpg"
                 width="264"
                 height="260"
                 alt="img4" />
@@ -325,9 +403,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!--section5-->
-      <section class="section">
+      </section> -->
+    <!--section5-->
+    <!-- <section class="section">
         <div class="conteiner">
           <h2 class="customers">Customers</h2>
           <ul class="customers-list list">
@@ -376,9 +454,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="conteiner conteiner-sss">
         <div class="footer-wrap">
           <a class="logo-link link" href="./index.html"
@@ -492,6 +570,8 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

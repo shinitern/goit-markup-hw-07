@@ -72,5 +72,8 @@
 <symbol id="icon-Frame" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M32.011 2.668l-32.011 15.005 10.23 3.157 15.779-12.327-12.002 13.493 0.009 0.004-0.012-0.004v7.348l5.737-5.578 7.269 2.243 5-23.342z"></path>
 </symbol>
+<symbol id="menu_btn" viewBox="0 0 32 32">
+<path d="M6.4 11.734v-2.134h19.2v2.134h-19.2zM6.4 17.066h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.134h-19.2v2.134z"></path>
+</symbol>
   </defs>
 </svg>
